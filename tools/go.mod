@@ -3,7 +3,9 @@ module github.com/jimmidyson/golang-repository-template/tools
 go 1.15
 
 require (
-	github.com/golangci/golangci-lint v1.36.0
+	cloud.google.com/go/iam v0.3.0 // indirect
+	cloud.google.com/go/kms v1.4.0 // indirect
+	github.com/golangci/golangci-lint v1.48.0
 	github.com/goreleaser/goreleaser v0.155.0
 	github.com/ory/go-acc v0.2.6
 )
